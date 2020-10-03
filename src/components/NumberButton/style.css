@@ -20,3 +20,12 @@
     transform: translateY(5px) translateX(5px);
     box-shadow: none;
 }
+
+@media (max-width: 426px) {
+    .NumberButton {
+        
+        font-size: 1em;
+        margin: 0 8%;
+        width: calc(52%/3);
+    }
+}

@@ -40,3 +40,15 @@
     box-shadow: 5px 5px 0 #085338;
     height: 73%;
 }
+
+@media (max-width: 769px) {
+    .ActionButton {
+        font-size: 1rem;
+    }
+
+    .ActionButton .braille {
+        font-size: .8rem
+    }
+
+
+}

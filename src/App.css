@@ -22,3 +22,9 @@
 html, body, #root, .App {
   height: 100%;
 }
+
+@media (max-width: 426px) {
+  .App {
+    flex-direction: column;
+  }
+}
