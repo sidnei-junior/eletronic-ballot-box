@@ -1,0 +1,42 @@
+.ActionButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+
+    width: calc(76%/3);
+    
+    height: 60%;
+    margin: 4%;
+
+    cursor: pointer;
+}
+
+.ActionButton .braille {
+    font-size: 1rem;
+}
+
+.ActionButton:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+}
+
+.WhiteButton {
+    background-color: #eff0eb;
+    box-shadow: 5px 5px 0 #989996;
+}
+
+.CorrectButton {
+    background-color: #e05709;
+    box-shadow: 5px 5px 0 #7a3005;
+}
+
+.ConfirmButton {
+    background-color: #0ea16b;
+    box-shadow: 5px 5px 0 #085338;
+    height: 73%;
+}

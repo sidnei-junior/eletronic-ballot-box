@@ -1,0 +1,45 @@
+.CandidateDisplay {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+	grid-template-rows: 1fr 10fr 7fr;
+    grid-template-areas:
+		"title image"
+		"office image"
+		"datas datas"
+		;
+}
+
+.CandidateDisplay .title {
+    grid-area: title;
+
+    font-weight: bold;
+}
+.CandidateDisplay .office {
+    grid-area: office;
+    
+    text-align: center;
+    padding: 10% 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.CandidateDisplay .image {
+    grid-area: image;
+}
+
+.CandidateDisplay .image img {
+    width: 100%;
+    border: solid;
+}
+.CandidateDisplay .datas {
+    grid-area: datas;
+}
+
+.CandidateDisplay .datas ul {
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.CandidateDisplay .datas li {
+   margin-bottom: 15px;
+}

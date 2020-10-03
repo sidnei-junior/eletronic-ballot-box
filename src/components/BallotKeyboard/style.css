@@ -1,0 +1,34 @@
+.BallotKeyboard {
+    background-color: #191b1a;
+    border: solid 30px #e7e7e7;
+    border-left: none;
+    border-radius: 3px 0 0 3px;
+    width: 30%;
+    height: 100%;
+}
+
+.NumberKeyboard {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.ActionKeyboard {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: flex-end;
+    height: 20%;
+}
+
+.EndVote {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 9rem;
+}

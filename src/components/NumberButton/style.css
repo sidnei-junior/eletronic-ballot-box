@@ -1,0 +1,22 @@
+.NumberButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #252523;
+    font-size: 3rem;
+    color: aliceblue;
+
+    width: calc(76%/3);
+    height: 18%;
+    margin: 4%;
+
+    border-radius: 3px;
+    box-shadow: 5px 5px 0 #454545;
+    cursor: pointer;
+}
+
+.NumberButton:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: none;
+}
