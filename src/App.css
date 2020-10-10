@@ -23,8 +23,20 @@ html, body, #root, .App {
   height: 100%;
 }
 
+.simulator-ballot-box {
+  position: fixed;
+  bottom: 1.2%;
+  left: 0.75%;
+}
+
 @media (max-width: 426px) {
   .App {
     flex-direction: column;
   }
+  .simulator-ballot-box {
+    top: 0.8%;
+    left: 1.6%;
+    font-size: 0.8rem
+  }
 }
+

@@ -20,10 +20,13 @@ function App() {
   return (
     <div className="App">
         <BallotDisplay numberVot={numberVot} candidate={candidate} controllVot={controllVot} />
-        <BallotKeyboard numberVot={numberVot} setNumberVot={setNumberVot} setControllVot={setControllVot} setCandidate={handleSetCandidate} />
+        <BallotKeyboard numberVot={numberVot} setNumberVot={setNumberVot} 
+                        controllVot={controllVot} setControllVot={setControllVot} 
+                        setCandidate={handleSetCandidate} />
 
         <ReactAudioPlayer id='ReactAudioPlayer' src={clickBallot} />
         <ReactAudioPlayer id='ReactAudioPlayerConfirm' src={confirmBallot} />
+        <div className="simulator-ballot-box">Simulação de Urna Eletrônica</div>
     </div>
   );
 }

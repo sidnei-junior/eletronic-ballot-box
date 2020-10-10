@@ -1,9 +1,9 @@
 .BallotKeyboard {
     background-color: #191b1a;
-    border: solid 30px #e7e7e7;
+    border: solid 10px #e7e7e7;
     border-left: none;
     border-radius: 3px 0 0 3px;
-    width: 30%;
+    width: 37.5%;
     height: 100%;
 }
 

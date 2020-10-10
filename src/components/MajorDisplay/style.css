@@ -1,0 +1,76 @@
+.MajorDisplay {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+	grid-template-rows: 1fr 10fr 7fr;
+    grid-template-areas:
+		"title image"
+		"office image"
+		"datas imageV"
+		;
+}
+
+.MajorDisplay .titleM {
+    grid-area: title;
+
+    font-weight: bold;
+}
+.MajorDisplay .officeM {
+    grid-area: office;
+    
+    text-align: center;
+    padding: 10% 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.MajorDisplay .imageM {
+    grid-area: image;
+}
+
+.MajorDisplay .imageVM {
+    grid-area: imageV;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.MajorDisplay .imageM img {
+    width: 100%;
+    border: solid;
+}
+
+.MajorDisplay .imageVM img {
+    width: 65%;
+    border: solid;
+}
+.MajorDisplay .datasM {
+    grid-area: datas;
+}
+
+.MajorDisplay .datasM ul {
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.MajorDisplay .datasM li {
+   margin-bottom: 15px;
+}
+
+@media (max-width: 769px) {
+    .MajorDisplay {
+        grid-template-columns: 6fr 4fr;
+        grid-template-rows: 1fr 4fr 7fr;
+    }
+
+    .MajorDisplay .officeM {
+        grid-area: office;
+        
+        text-align: center;
+        padding: 10% 0;
+        font-size: 2rem;
+    }
+
+    .MajorDisplay .datasM ul {
+        font-size: 1.5rem;
+    }
+}
