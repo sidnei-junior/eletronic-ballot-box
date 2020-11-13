@@ -8,10 +8,10 @@ const candidates = [
     },
     {
         number: 77,
-        name: 'Fernandinho e Ari',
+        name: 'Fernando',
         img: './img/77.png',
         imgV: './img/77V.png',
-        office: 'Prefeito e Vice-prefeito',
+        office: 'Prefeito',
         party: 'Solidariedade'
     }
 ]
